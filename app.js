@@ -1,4 +1,5 @@
 import express from "express";
+
 import {
   getUserByID,
   getUsers,
@@ -6,6 +7,7 @@ import {
   updateUserByID,
   deleteUserByID,
 } from "./models/users.js";
+
 const PORT = 3000;
 const app = express();
 
